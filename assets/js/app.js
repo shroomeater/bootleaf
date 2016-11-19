@@ -159,8 +159,8 @@ var boroughs = L.geoJson(null, {
     });
   }
 });
-$.getJSON("data/boroughs.geojson", function (data) {
-  boroughs.addData(data);
+//$.getJSON("data/boroughs.geojson", function (data) {
+//  boroughs.addData(data);
 });
 
 //Create a color dictionary based off of subway route_id
@@ -209,8 +209,8 @@ var subwayLines = L.geoJson(null, {
     });
   }
 });
-$.getJSON("data/subways.geojson", function (data) {
-  subwayLines.addData(data);
+//$.getJSON("data/subways.geojson", function (data) {
+//  subwayLines.addData(data);
 });
 
 /* Single marker cluster layer to hold all clusters */
@@ -307,7 +307,7 @@ $.getJSON("data/geojson_arbores_senlleiras.geojson", function (data) {
 });
 
 map = L.map("map", {
-  zoom: 10,
+  zoom: 8,
   center: [42.701683, -7.924694],
   layers: [cartoLight, boroughs, markerClusters, highlight],
   zoomControl: false,

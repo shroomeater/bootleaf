@@ -259,7 +259,7 @@ var theaters = L.geoJson(null, {
     }
   }
 });
-$.getJSON("data/DOITT_THEATER_01_13SEPT2010.geojson", function (data) {
+$.getJSON("data/geojson_formacions_senlleiras.geojson", function (data) {
   theaters.addData(data);
   map.addLayer(theaterLayer);
 });
@@ -302,13 +302,13 @@ var museums = L.geoJson(null, {
     }
   }
 });
-$.getJSON("data/DOITT_MUSEUM_01_13SEPT2010.geojson", function (data) {
+$.getJSON("data/geojson_arbores_senlleiras.geojson", function (data) {
   museums.addData(data);
 });
 
 map = L.map("map", {
   zoom: 10,
-  center: [40.702222, -73.979378],
+  center: [42.701683, -7.924694],
   layers: [cartoLight, boroughs, markerClusters, highlight],
   zoomControl: false,
   attributionControl: false

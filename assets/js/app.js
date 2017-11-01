@@ -451,8 +451,8 @@ $("#featureModal").on("hidden.bs.modal", function (e) {
 $(document).one("ajaxStop", function () {
   $("#loading").hide();
   sizeLayerControl();
-  /* Fit map to boroughs bounds */
-  map.fitBounds(boroughs.getBounds());
+  /* Fit map to theater bounds */
+  map.fitBounds(theaters.getBounds());
   featureList = new List("features", {valueNames: ["feature-name"]});
   featureList.sort("feature-name", {order:"asc"});
 

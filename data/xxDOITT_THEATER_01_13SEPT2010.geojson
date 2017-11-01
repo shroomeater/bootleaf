@@ -48,7 +48,7 @@
 ,
 { "type": "Feature", "id": 22, "properties": { "NAME": "Century Center For the Performing Arts", "TEL": "(212) 239-6200", "URL": "http:\/\/www.theatermania.com\/new-york\/theaters\/century-center-for-the-performing-arts_59\/", "ADDRESS1": "111 E 15th St", "ADDRES2": null, "CITY": "New York", "ZIP": 10003.0 }, "geometry": { "type": "Point", "coordinates": [ -73.98889, 40.735167 ] } }
 ,
-{ "type": "Feature", "id": 23, "properties": { "NAME": "Cherry Lane Theatre", "TEL": "(212) 989-2020¿", "URL": "http:\/\/cherrylanetheatre.org\/", "ADDRESS1": "38 Commerce Street", "ADDRES2": null, "CITY": "New York", "ZIP": 10014.0 }, "geometry": { "type": "Point", "coordinates": [ -74.005311, 40.731262 ] } }
+{ "type": "Feature", "id": 23, "properties": { "NAME": "Cherry Lane Theatre", "TEL": "(212) 989-2020Â¿", "URL": "http:\/\/cherrylanetheatre.org\/", "ADDRESS1": "38 Commerce Street", "ADDRES2": null, "CITY": "New York", "ZIP": 10014.0 }, "geometry": { "type": "Point", "coordinates": [ -74.005311, 40.731262 ] } }
 ,
 { "type": "Feature", "id": 24, "properties": { "NAME": "Circle In the Square Theatre", "TEL": "(212) 307-0388", "URL": "http:\/\/www.circlesquare.org\/", "ADDRESS1": "1633 Broadway", "ADDRES2": null, "CITY": "New York", "ZIP": 10019.0 }, "geometry": { "type": "Point", "coordinates": [ -73.984548, 40.762029 ] } }
 ,
